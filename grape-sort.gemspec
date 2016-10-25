@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'grape/sort/version'
+require 'grape/order/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "grape-sort"
-  spec.version       = Grape::Sort::VERSION
+  spec.name          = "grape-order"
+  spec.version       = Grape::Order::VERSION
   spec.authors       = ["Grzegorz Brzezinka"]
   spec.email         = ["greg@prosit.no"]
-  spec.description   = %q{collection sorting by params for grape API framework}
-  spec.summary       = %q{collection sorting for grape}
+  spec.description   = %q{collection ordering by params for grape API framework}
+  spec.summary       = %q{collection ordering for grape}
   spec.homepage      = ""
   spec.license       = "MIT"
 
