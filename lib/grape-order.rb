@@ -1,5 +1,5 @@
 module Grape
-  module Sort
+  module Order
     class << self
       def post_0_9_0_grape?
         Gem::Version.new(Grape::VERSION) > Gem::Version.new('0.9.0')
@@ -8,4 +8,4 @@ module Grape
   end
 end
 
-require "grape/sort"
+require "grape/order"

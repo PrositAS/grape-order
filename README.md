@@ -61,4 +61,7 @@ curl -v http://lvh.me:3000/comments?order=-created_at
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/PrositAS/grape-order.
+The gem structure was based on https://github.com/monterail/grape-kaminari 
+(which can be used for pagination).
+
+Feel free to submit issue with bug report or pull requests on GitHub at https://github.com/PrositAS/grape-order.

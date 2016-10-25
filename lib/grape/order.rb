@@ -18,7 +18,7 @@ module Grape
           end
         end
 
-        def self.order(sorter = '')
+        def self.order(sorter = nil)
           params do
             optional :order,     type: String, default: (sorter if sorter.present?),
                      desc: 'Set sorting order.'
