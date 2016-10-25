@@ -9,7 +9,7 @@ module Grape
           def order(collection)
             sorters = params[:order].split(',').map do |s|
               if s[0] == '-'
-                "#{s} asc"
+                "#{s[1..-1]} asc"
               else
                 "#{s} desc"
               end
