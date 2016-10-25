@@ -1,4 +1,4 @@
-# Grape::Sort [![Gem Version](https://badge.fury.io/rb/grape-order.png)]
+# Grape::Order [![Gem Version](https://badge.fury.io/rb/grape-order.png)]
 
 Collection ordering for [grape](https://github.com/intridea/grape) API framework.
 
