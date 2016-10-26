@@ -1,4 +1,4 @@
-# Grape::Order [![Gem Version](https://badge.fury.io/rb/grape-order.png)]
+# Grape::Order [![Gem Version](https://badge.fury.io/rb/grape-order.png)][![Build Status](https://semaphoreci.com/api/v1/prositas/grape-order/branches/master/badge.svg)](https://semaphoreci.com/prositas/grape-order)
 
 Collection ordering for [grape](https://github.com/intridea/grape) API framework.
 
