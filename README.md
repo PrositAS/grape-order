@@ -32,7 +32,7 @@ class MyApi < Grape::API
   resource :comments do
     desc 'Return a list of comments.'
 
-    # Annotate action with `paginate`.
+    # Annotate action with `order`.
     # This will add an optional param: order
     #
     # You can optionally set the default :order setting to the fields of your choice.
@@ -54,6 +54,7 @@ Now you can pass a string `order` param to HTTP request to your endpoint structu
 
 - prepend field name by `-` to get ascending order, like `-created_at`
 - pass multiple fields to order by separating them by comma, like `-created_at, name`
+- ordering on nested resources is also supported, eg: 'posts.created_at, -comments.created_at'
 
 ```
 curl -v http://lvh.me:3000/comments?order=-created_at
