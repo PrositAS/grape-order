@@ -27,7 +27,7 @@ $ gem install grape-order
 ```ruby
 class MyApi < Grape::API
   # Include Grape::Sort module in your api
-  include Grape::Sort
+  include Grape::Order
 
   resource :comments do
     desc 'Return a list of comments.'
